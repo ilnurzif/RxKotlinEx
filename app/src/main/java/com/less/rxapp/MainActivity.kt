@@ -2,7 +2,6 @@ package com.less.rxapp
 
 import android.os.Bundle
 import com.google.android.material.floatingactionbutton.FloatingActionButton
-import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
@@ -29,7 +28,10 @@ class MainActivity : AppCompatActivity() {
          //   Scan().testReduce()
          //   Scan().testCollectInto()
          //   Distinct().testDisctinct()
-            Distinct().testDisctinctUntilChanged()
+         //   Distinct().testDisctinctUntilChanged()
+         //   TakeWhile().testtakeWhile();
+         //   TakeWhile().testtakeUntil();
+            CashDBLoad().TestConcat()
         }
     }
 
