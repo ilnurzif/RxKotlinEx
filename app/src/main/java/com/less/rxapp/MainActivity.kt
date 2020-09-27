@@ -31,7 +31,15 @@ class MainActivity : AppCompatActivity() {
          //   Distinct().testDisctinctUntilChanged()
          //   TakeWhile().testtakeWhile();
          //   TakeWhile().testtakeUntil();
-            CashDBLoad().TestConcat()
+        //    CashDBLoad().TestConcat()
+        //    Buffer().testBuffer()
+       //     Buffer().testBufferNN()
+         //   Buffer().testBufferWithIterable()
+            //   Buffer().testBuffer2()
+        //    OnResumeNext().testOnResumeNext2()
+           // Defer().test()
+         //   TimeOut().testTimeOut()
+            Retry().testRetry()
         }
     }
 
